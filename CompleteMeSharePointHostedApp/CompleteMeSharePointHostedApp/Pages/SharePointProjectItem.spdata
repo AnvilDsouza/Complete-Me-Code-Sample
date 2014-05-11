@@ -3,6 +3,6 @@
   <Files>
     <ProjectItemFile Source="Elements.xml" Target="Pages\" Type="ElementManifest" />
     <ProjectItemFile Source="Default.aspx" Target="Pages\" Type="ElementFile" />
-    <ProjectItemFile Source="Uber_Task_List_App_Part.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="template.html" Target="Pages\" Type="ElementFile" />
   </Files>
 </ProjectItem>

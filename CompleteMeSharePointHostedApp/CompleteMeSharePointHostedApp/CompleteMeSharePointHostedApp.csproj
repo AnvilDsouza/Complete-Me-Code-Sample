@@ -45,12 +45,18 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="Pages\Uber_Task_List_App_Part.aspx" />
-    <Content Include="Scripts\UberTaskListAppPart.js" />
     <None Include="packages.config" />
     <None Include="Pages\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{4de4af07-024e-4358-8ed8-b5d4bdab6dba}</SharePointProjectItemId>
     </None>
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Images\bump.png" />
+    <Content Include="Images\CompleteME_App_96x96.jpg">
+      <OpcRelationship>manifest-icon</OpcRelationship>
+    </Content>
+    <Content Include="Images\delete.png" />
+    <Content Include="Images\edit.png" />
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
   </ItemGroup>
@@ -59,11 +65,19 @@
     <None Include="Scripts\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{b97d7e90-af0f-4c2b-9e71-1b7e3b7d0d36}</SharePointProjectItemId>
     </None>
+    <Content Include="Pages\template.html" />
+    <Content Include="Scripts\Controller\BumpItController.js" />
+    <Content Include="Scripts\Controller\TaskInlineEditController.js" />
+    <Content Include="Scripts\Controller\TodoController.js" />
     <Content Include="Scripts\Elements.xml" />
     <Content Include="Scripts\App.js" />
     <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\moment.min.js" />
+    <Content Include="Scripts\Services\MockSharePointService.js" />
+    <Content Include="Scripts\Services\SharePointService.js" />
+    <Content Include="Scripts\ui-bootstrap-tpls-0.10.0.min.js" />
     <Content Include="Scripts\_references.js" />
   </ItemGroup>
   <ItemGroup>
@@ -74,9 +88,7 @@
     <Content Include="Content\App.css" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Images\AppIcon.png">
-      <OpcRelationship>manifest-icon</OpcRelationship>
-    </Content>
+    <Content Include="Images\AppIcon.png" />
     <Content Include="Images\Elements.xml" />
     <None Include="Images\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{791b46be-36a6-4a0f-ac77-25ed9ce713df}</SharePointProjectItemId>
