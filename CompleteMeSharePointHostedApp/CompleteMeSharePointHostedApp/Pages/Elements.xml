@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Pages">
+    <File Path="Pages\Default.aspx" Url="Pages/Default.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\Uber_Task_List_App_Part.aspx" Url="Pages/Uber_Task_List_App_Part.aspx" ReplaceContent="TRUE" />
+  </Module>
+</Elements>
